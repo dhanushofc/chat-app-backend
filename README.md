@@ -81,9 +81,3 @@ Copy
 Edit
 
 ---
-
-### ✅ Once Done
-
-Say:
-> ✅ README pasted  
-And I’ll show you how to **pin both repos** to your GitHub profile (final touch for screening).
