@@ -44,6 +44,8 @@ node server.js
 Your backend will run at:
 http://localhost:5000
 
+---
+
 ☁️ Deployment
 Hosted on Render
 
@@ -51,15 +53,14 @@ MongoDB URI is stored securely as an environment variable (MONGO_URI)
 
 Frontend connects to this backend via Socket.IO
 
+---
+
 🖥️ Frontend Repo
 🔗 Chat App Frontend on GitHub
+
+---
 
 👨‍💻 Author
 Ginkala Dhanush
 GitHub → @dhanushofc
 
-yaml
-Copy
-Edit
-
----
