@@ -32,6 +32,21 @@ Used by the frontend to send and receive messages.
 
 ---
 
+## 🔄 How It Works
+Listens for sendMessage from frontend (Socket.IO)
+
+Emits receiveMessage to all connected users
+
+Connected to MongoDB Atlas for database support
+
+Frontend (React) 
+     ⇅ Socket.IO
+Backend (Express + Socket.IO)
+     ⇅ Mongoose
+MongoDB (Atlas Cloud)
+
+---
+
 ## 🧪 How to Run Locally
 
 ```bash
