@@ -1,45 +1,3 @@
-# 🛠️ Real-Time Chat App (Backend)
-
-This is the Node.js backend for a real-time chat application powered by **Socket.IO** and connected to **MongoDB Atlas** using **Mongoose**.  
-It works seamlessly with the frontend deployed on Vercel and is hosted live on Render.
-
----
-## 🌐 Live Backend API
-
-🔗 https://chat-app-backend-dxyi.onrender.com  
-Used by the frontend to send and receive messages.
-
----
-## ⚙️ Tech Stack
-
-- Node.js  
-- Express.js  
-- Socket.IO (Server)  
-- MongoDB Atlas  
-- Mongoose  
-- Render (Deployment)
-
----
-## 🧪 How to Run Locally
-
-git clone https://github.com/dhanushofc/chat-app-backend.git
-cd chat-app-backend
-npm install
-
-Create a `.env` file in the root folder:
-
-MONGO_URI=your-mongodb-connection-url
-
-Then run:
-
-node server.js
-
-Your backend will run at:  
-`http://localhost:5000`
-
----
-
-
 
 # 🛠️ Real-Time Chat App (Backend)
 
@@ -63,7 +21,7 @@ Used by the frontend to send and receive messages.
 - MongoDB Atlas  
 - Mongoose  
 - Render (Deployment)
-
+  
 ---
 
 ## 🧪 How to Run Locally
@@ -87,17 +45,25 @@ node server.js
 Your backend will run at:
 http://localhost:5000
 ```
+  
+---
 
-☁️ Deployment
+## 📦 Deployment
+
 Hosted on Render
 
 MongoDB URI is stored securely as an environment variable (MONGO_URI)
 
 Frontend connects to this backend via Socket.IO
 
+---
+
 🖥️ Frontend Repo
 🔗 Chat App Frontend on GitHub
 
-👨‍💻 Author
-Ginkala Dhanush
-GitHub → @dhanushofc
+---
+
+## 🙋‍♂️ Author
+
+- **Ginkala Dhanush**  
+  [GitHub Profile →](https://github.com/dhanushofc)
