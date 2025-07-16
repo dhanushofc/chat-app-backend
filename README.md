@@ -35,18 +35,25 @@ Used by the frontend to send and receive messages.
 ## 🧪 How to Run Locally
 
 ```bash
+# Clone the backend repository
 git clone https://github.com/dhanushofc/chat-app-backend.git
+
+# Move into the project folder
 cd chat-app-backend
+
+# Install required dependencies
 npm install
 
-//Create a .env file in the root folder:
-MONGO_URI=your-mongodb-connection-url
+# ➕ Create a .env file in the root folder (not pushed to GitHub)
+# Inside it, add:
+# MONGO_URI=your-mongodb-connection-url
 
-//Start the server:
+# Start the backend server
 node server.js
 
-//Your backend will run at:
-http://localhost:5000
+# ✅ Your backend will run at:
+# http://localhost:5000
+
 ```
 
 ---
