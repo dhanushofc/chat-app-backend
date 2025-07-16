@@ -1,83 +1,69 @@
 # 🛠️ Real-Time Chat App (Backend)
 
-This is the **Node.js backend** for the Real-Time Chat App.  
-It handles WebSocket communication with **Socket.IO**, connects to MongoDB using **Mongoose**, and powers the frontend deployed on Vercel.
+This is the **Node.js backend** for a real-time chat application powered by **Socket.IO** and connected to **MongoDB Atlas** using **Mongoose**.  
+It works seamlessly with the frontend deployed on **Vercel** and is hosted live on **Render**.
 
 ---
 
 ## 🌐 Live Backend API
 
-👉 [https://chat-app-backend-dxyi.onrender.com](https://chat-app-backend-dxyi.onrender.com)
-
-> This URL is used by the frontend for real-time messaging.
+🔗 https://chat-app-backend-dxyi.onrender.com  
+Used by the frontend to send and receive messages.
 
 ---
 
 ## ⚙️ Tech Stack
 
-- 🟢 Node.js
-- 🌐 Express.js
-- ⚡ Socket.IO (Server)
-- 🍃 MongoDB Atlas
-- 🔗 Mongoose
-- ☁️ Hosted on Render
+- Node.js
+- Express.js
+- Socket.IO (Server)
+- MongoDB Atlas
+- Mongoose
+- Render (Deployment)
 
 ---
 
-## 🔌 Features
+## 🚀 Features
 
-- Real-time WebSocket messaging using Socket.IO
+- Real-time communication using WebSocket (Socket.IO)
 - Broadcast messages to all connected users
-- Uses MongoDB Atlas to manage messages (optional)
-- `.env` support for safe database credentials
-- CORS enabled for frontend-backend communication
+- Supports secure MongoDB connections via `.env`
+- Handles CORS for frontend-backend integration
 
 ---
 
-## 📦 How to Run Locally
-
-1. Clone the repo
+## 🧪 How to Run Locally
 
 ```bash
 git clone https://github.com/dhanushofc/chat-app-backend.git
 cd chat-app-backend
 npm install
-Create a .env file in the root folder with the following content:
+Create a .env file in the root folder:
 
 env
 Copy
 Edit
-MONGO_URI=your-mongodb-uri-here
+MONGO_URI=your-mongodb-connection-url
 Start the server:
 
 bash
 Copy
 Edit
 node server.js
-Your backend will run on:
-
-arduino
-Copy
-Edit
+Your backend will run at:
 http://localhost:5000
-Make sure MongoDB URI is working if you're storing chat messages.
 
-🚀 Deployment (Live on Render)
-Backend is hosted on Render:
-https://chat-app-backend-dxyi.onrender.com
+☁️ Deployment Notes
+Deployed using Render
 
-MongoDB URI is securely stored in Render's Environment Variables as MONGO_URI
+The MongoDB URI is securely stored as an environment variable (MONGO_URI)
 
-📬 Related Repositories
-🔗 Frontend Repo
+Connects to frontend hosted on Vercel via Socket.IO
+
+📬 Related Repository
+🖥️ Frontend:
 https://github.com/dhanushofc/chat-app-frontend
 
 🙋‍♂️ Author
 Ginkala Dhanush
-GitHub Profile →
-
-yaml
-Copy
-Edit
-
----
+GitHub: @dhanushofc
