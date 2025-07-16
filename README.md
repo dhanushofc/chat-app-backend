@@ -14,12 +14,21 @@ Used by the frontend to send and receive messages.
 
 ## ⚙️ Tech Stack
 
-- Node.js  
-- Express.js  
-- Socket.IO (Server)  
-- MongoDB Atlas  
-- Mongoose  
-- Render (Deployment)
+- 🟢 Node.js
+- 🌐 Express.js
+- ⚡ Socket.IO (Server)
+- 🍃 MongoDB Atlas
+- 🔗 Mongoose
+- ☁️ Hosted on **Render**
+
+---
+
+## 🔌 Features
+
+- Real-time bidirectional messaging
+- WebSocket setup with cross-origin support
+- Environment variable (`MONGO_URI`) for database
+- Secure `.env` (not pushed to GitHub)
 
 ---
 
