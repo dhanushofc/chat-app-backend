@@ -1,4 +1,3 @@
-
 # 🛠️ Real-Time Chat App (Backend)
 
 This is the Node.js backend for a real-time chat application powered by **Socket.IO** and connected to **MongoDB Atlas** using **Mongoose**.  
@@ -21,7 +20,7 @@ Used by the frontend to send and receive messages.
 - MongoDB Atlas  
 - Mongoose  
 - Render (Deployment)
-  
+
 ---
 
 ## 🧪 How to Run Locally
@@ -45,10 +44,10 @@ node server.js
 Your backend will run at:
 http://localhost:5000
 ```
-  
+
 ---
 
-## 📦 Deployment
+##☁️ Deployment
 
 Hosted on Render
 
@@ -58,8 +57,10 @@ Frontend connects to this backend via Socket.IO
 
 ---
 
-🖥️ Frontend Repo
-🔗 Chat App Frontend on GitHub
+## 🖥️ Frontend Repo
+
+🔗 [Chat App Frontend on GitHub](https://github.com/dhanushofc/chat-app-frontend)
+
 
 ---
 
