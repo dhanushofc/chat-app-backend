@@ -1,34 +1,25 @@
 # 🛠️ Real-Time Chat App (Backend)
 
-This is the **Node.js backend** for a real-time chat application powered by **Socket.IO** and connected to **MongoDB Atlas** using **Mongoose**.  
-It works seamlessly with the frontend deployed on **Vercel** and is hosted live on **Render**.
+This is the **Node.js backend** for a real-time chat app powered by **Socket.IO** and connected to **MongoDB Atlas** using **Mongoose**.  
+It works seamlessly with the frontend deployed on Vercel and is hosted live on Render.
 
 ---
 
 ## 🌐 Live Backend API
 
-🔗 https://chat-app-backend-dxyi.onrender.com  
+👉 [https://chat-app-backend-dxyi.onrender.com](https://chat-app-backend-dxyi.onrender.com)  
 Used by the frontend to send and receive messages.
 
 ---
 
 ## ⚙️ Tech Stack
 
-- Node.js
-- Express.js
-- Socket.IO (Server)
-- MongoDB Atlas
-- Mongoose
+- Node.js  
+- Express.js  
+- Socket.IO (Server)  
+- MongoDB Atlas  
+- Mongoose  
 - Render (Deployment)
-
----
-
-## 🚀 Features
-
-- Real-time communication using WebSocket (Socket.IO)
-- Broadcast messages to all connected users
-- Supports secure MongoDB connections via `.env`
-- Handles CORS for frontend-backend integration
 
 ---
 
@@ -44,26 +35,24 @@ env
 Copy
 Edit
 MONGO_URI=your-mongodb-connection-url
-Start the server:
+Then run:
 
 bash
 Copy
 Edit
 node server.js
-Your backend will run at:
-http://localhost:5000
+Backend will run at http://localhost:5000
 
-☁️ Deployment Notes
-Deployed using Render
+📦 Deployment
+Hosted on Render
 
-The MongoDB URI is securely stored as an environment variable (MONGO_URI)
+MongoDB URI is stored securely as an environment variable (MONGO_URI)
 
-Connects to frontend hosted on Vercel via Socket.IO
+Frontend connects to this backend via WebSocket
 
-📬 Related Repository
-🖥️ Frontend:
-https://github.com/dhanushofc/chat-app-frontend
+🖥️ Frontend Repo
+🔗 Chat App Frontend on GitHub
 
 🙋‍♂️ Author
 Ginkala Dhanush
-GitHub: @dhanushofc
+GitHub Profile →
