@@ -29,18 +29,13 @@ Used by the frontend to send and receive messages.
 git clone https://github.com/dhanushofc/chat-app-backend.git
 cd chat-app-backend
 npm install
+
 Create a .env file in the root folder:
-
-env
-Copy
-Edit
 MONGO_URI=your-mongodb-connection-url
-Start the server:
 
-bash
-Copy
-Edit
+Start the server:
 node server.js
+
 Your backend will run at:
 http://localhost:5000
 ```
