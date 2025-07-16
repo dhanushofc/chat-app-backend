@@ -39,12 +39,14 @@ Emits receiveMessage to all connected users
 
 Connected to MongoDB Atlas for database support
 
+```bash
 Frontend (React) 
      ⇅ Socket.IO
 Backend (Express + Socket.IO)
      ⇅ Mongoose
 MongoDB (Atlas Cloud)
 
+```
 ---
 
 ## 🧪 How to Run Locally
